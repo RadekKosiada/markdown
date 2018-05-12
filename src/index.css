@@ -1,0 +1,78 @@
+/* * {
+  border: 1px solid black;
+} */
+
+
+.App {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#app-title {
+  /* text-align: center; */
+  /* border-bottom: 2px blue solid; */
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+#input-title {
+  padding: 5px;
+ margin-bottom: 15px;
+}
+
+#input {
+/* min-width: 540px; */
+min-height: 700px;
+border: 2px red solid;
+border-radius: 0 !important;
+box-shadow: none;
+}
+
+#output-title {
+  margin-bottom: 15px; 
+  padding: 5px;
+}
+
+#output {
+  border-top: 2px red solid;
+  border-radius: 0 !important;
+}
+
+.no-border {
+  border: 0;
+  box-shadow: none; 
+}
+
+#input::-webkit-scrollbar {
+ width: 15px;
+ background-color: blue;
+}
+
+#input::-webkit-scrollbar-track {
+ background: blue;
+ /* border-radius: 2px; */
+}
+
+#input::-webkit-scrollbar-thumb {
+ background: yellow;
+ /* border-radius: 2px; */
+}
+
+#input::-webkit-resizer {
+  background-color: red;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+  background-color: blue;
+ }
+ 
+body::-webkit-scrollbar-track {
+  background: blue;
+  /* border-radius: 2px; */
+ }
+ 
+body::-webkit-scrollbar-thumb {
+  background: yellow;
+  /* border-radius: 2px; */
+ }
